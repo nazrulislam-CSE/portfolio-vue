@@ -4,15 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio-Vue README</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 2rem; color: #333; }
-    h1, h2, h3 { color: #4f46e5; }
-    code { background: #f3f4f6; padding: 2px 4px; border-radius: 4px; }
-    pre { background: #f3f4f6; padding: 1rem; border-radius: 6px; overflow-x: auto; }
-    a { color: #4f46e5; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    ul { margin-bottom: 1rem; }
-  </style>
 </head>
 <body>
 
@@ -44,7 +35,7 @@
   <h2>Project Setup</h2>
 
   <h3>Clone the repository</h3>
-  <pre><code>git clone https://github.com/yourusername/portfolio-vue.git
+  <pre><code>git clone https://github.com/nazrulislam-CSE/portfolio-vue.git
 cd portfolio-vue</code></pre>
 
   <h3>Install Laravel dependencies</h3>
@@ -82,7 +73,7 @@ npm run dev</code></pre>
   <h2>Author</h2>
   <p><strong>Nazrul Islam Suzon</strong></p>
   <ul>
-    <li>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/nazrulislam-CSE</a></li>
+    <li>GitHub: <a href="https://github.com/nazrulislam-CSE" target="_blank">https://github.com/nazrulislam-CSE</a></li>
     <li>Email: <a href="mailto:nsuzon02@gmail.com">nsuzon02@gmail.com</a></li>
   </ul>
 
