@@ -25,8 +25,8 @@
 
   <h2>Tech Stack</h2>
   <ul>
-    <li><strong>Frontend:</strong> Vue 3, Tailwind CSS, Vue Router</li>
-    <li><strong>Backend:</strong> Laravel 10</li>
+    <li><strong>Frontend:</strong> Vue 4, Tailwind CSS, Vue Router</li>
+    <li><strong>Backend:</strong> Laravel 12</li>
     <li><strong>Database:</strong> MySQL (optional for CMS/Contact storage)</li>
     <li><strong>Icons & Animations:</strong> Font Awesome, Custom CSS Animations</li>
   </ul>
