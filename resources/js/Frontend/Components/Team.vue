@@ -64,8 +64,8 @@ const team = [
   {
     name: 'Bkolpo Landmark Ltd',
     role: 'Finance Director',
-    photo: '/upload/images/team/technologies.jpg',
-    website: 'https://www.bkolpolandmark.com',
+    photo: '/upload/images/team/landmark.jpg',
+    website: 'https://www.landmark.com',
     social: [
       { name: 'Facebook', icon: 'fab fa-facebook', link: '#' },
     ],
