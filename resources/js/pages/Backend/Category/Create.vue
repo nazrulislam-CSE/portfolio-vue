@@ -1,6 +1,7 @@
 <template>
   <AdminLayout :pageTitle="pageTitle">
     <div class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow border border-gray-200">
+    <Head title="Create Category" />
       <h2 class="text-2xl font-semibold mb-6">{{ pageTitle }}</h2>
 
       <form @submit.prevent="submitForm" class="space-y-4">
@@ -36,7 +37,7 @@
 import { reactive, ref } from 'vue';
 import AdminLayout from '../../../layouts/AdminLayout.vue';
 import { defineProps } from 'vue';
-
+import { Head } from '@inertiajs/vue3';
 
 const props = defineProps({
   pageTitle: String

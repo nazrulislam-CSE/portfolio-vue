@@ -2,6 +2,7 @@
     <AdminLayout :pageTitle="pageTitle">
         <!-- Full width wrapper -->
         <div class="w-full">
+            <Head title="Dashboard" />
             <!-- Breadcrumb + Page Actions -->
             <div class="mb-6 flex flex-col items-start justify-between space-y-2 md:flex-row md:items-center md:space-y-0">
                 <!-- Breadcrumb (left) -->
@@ -134,7 +135,7 @@
 
 <script setup lang="ts">
 import AdminLayout from '../../layouts/AdminLayout.vue';
-
+import { Head } from '@inertiajs/vue3';
 const pageTitle = 'Dashboard';
 
 const recentProjects = [

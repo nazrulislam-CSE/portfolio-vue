@@ -2,6 +2,7 @@
 import { ref, computed, watch } from 'vue';
 import AdminLayout from '../../../layouts/AdminLayout.vue';
 import { Link } from '@inertiajs/vue3';
+import { Head } from '@inertiajs/vue3';
 // Define props
 const props = defineProps({
   pageTitle: String,
@@ -48,6 +49,7 @@ watch([search, perPage], () => currentPage.value = 1);
 <template>
   <AdminLayout :pageTitle="pageTitle">
     <div class="w-full">
+    <Head title="Categories" />
       
       <!-- Breadcrumb + Page Actions -->
       <div class="mb-6 flex flex-col items-start justify-between space-y-2 md:flex-row md:items-center md:space-y-0">
