@@ -7,7 +7,7 @@
       <!-- Left Photo -->
       <div class="flex justify-center md:justify-start">
         <img
-          src="/upload/images/hero3-removebg-preview.png"
+          src="/upload/images/sumon.png"
           alt="Profile Photo"
           class="w-full h-auto rounded-2xl shadow-xl animate-float transition-transform duration-700 hover:scale-105"
         />
